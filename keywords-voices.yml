@@ -7,6 +7,8 @@ languages:
   - typescript
   - python
   - golang
+  - c
+  - cpp
 
 contributes:
   # vscode-rainbow-fart built-in magic keys
@@ -87,6 +89,25 @@ contributes:
       - depercated  # typo of deprecated
       - vaild  # typo of valid
       - Vaild  # typo of valid
+      - fro （ # typo of for (
+      - whlie （ # typo of while (
+      - mian # typo of main
+      - retrun # typo of return
+      - calss # typo of class
+      - uniqe_ptr # typo of unique_ptr
+      - share_ptr # typo of shared_ptr
+      - cv::waitKey # typo of cv::WaitKey
+      - cv::mat # typo of cv::Mat
+      - cv::point # typo of cv::Point
+      - cv::Circle # typo of cv::circle
+      - cv::Rect # typo of cv::rect
+      - cv::Line # typo of cv::line
+      - cv::Ellipse # typo of cv::ellipse
+      - cv::Polylines # typo of cv::polylines
+      - cv::FillPoly # typo of cv::fillPoly
+      - critcal # typo of critical
+      - crtical # typo of critical
+
     voices:
       - voices/01-アンタなんて豆腐の角に頭ぶつけて死んじゃえばいいのよ！.mp3
       - voices/11-このぉバカ！-.mp3
@@ -104,6 +125,8 @@ contributes:
   - keywords:
       - setTimeout(
       - setInterval(
+      - time.
+      - 'std::chrono::'
     voices:
       - voices/21-ちょっと待ちなさいよ！この鈍感男！.mp3
       - voices/34-ひ…ひざまくらぁ!……い、一分だけだからねっ.mp3
@@ -112,6 +135,8 @@ contributes:
 
   - keywords:
       - 'import '
+      - import
+      - '\#include'
     voices:
       - voices/24-ついでだから、あんたも誘ってあげるわ.mp3
       - voices/26-隣に来ないでよ、恥ずかしいじゃない.mp3
@@ -121,6 +146,10 @@ contributes:
   - keywords:
       - 'function '
       - '() => '
+      - def
+      - ') {'
+      - '){'
+      - ']('
     voices:
       - voices/15-もう…バカ….mp3
       - voices/16-全力で来なさいよ？叩き潰してあげるから.mp3
@@ -131,6 +160,9 @@ contributes:
 
   - keywords:
       - if (
+      - if(
+      - else if (
+      - else if(
       - ' ? '
     voices:
       - voices/06-勘違いしないでよね.mp3
@@ -142,6 +174,7 @@ contributes:
 
   - keywords:
       - else {
+      - else{
     voices:
       - voices/15-もう…バカ….mp3
       - voices/36-今日は仕方ないわね….mp3
@@ -149,8 +182,11 @@ contributes:
 
   - keywords:
       - for (
+      - for(
       - while (
+      - while(
       - switch (
+      - switch(
       - .map(
     voices:
       - voices/03-うるさい、うるさい、うるさい！.mp3
@@ -160,11 +196,13 @@ contributes:
 
   - keywords:
       - 'async '
+      - std::thread
     voices:
       - voices/43-見せたいわけじゃないんだから！.mp3
 
   - keywords:
       - 'await '
+      - cv::WaitKey(
     voices:
       - voices/17-そばにいなさい！一生よ！いいわね！.mp3
       - voices/30-もうっ、知らない、バカ！！何言わせんのよ！！.mp3
@@ -192,6 +230,9 @@ contributes:
       - "continue\n"
       - "break\n"
       - "exit\n"
+      - exit(
+      - goto
+      - start
       - finally
     voices:
       - voices/07-別にあんたのためにやったわけじゃないんだから.mp3
@@ -202,6 +243,7 @@ contributes:
 
   - keywords:
       - return null
+      - return 0
       - "return\n"
     voices:
       - voices/45-無視しないでよ！謝るから！.mp3
@@ -210,6 +252,7 @@ contributes:
       - this.
       - self.
       - public
+      - protected
       - private
       - extends
     voices:
@@ -242,10 +285,13 @@ contributes:
 
   - keywords:
       - hello
+      - Hello
     voices:
       - voices/19-はい.mp3
 
   - keywords:
       - ' no '
+      - not
+      - '!'
     voices:
       - voices/32-NOとは言わせないわよ！.mp3

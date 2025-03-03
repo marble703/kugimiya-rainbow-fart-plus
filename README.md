@@ -22,7 +22,6 @@
 
 而钉宫傲娇的声音同样听得眯眼而且非常激动、~~血压飙升~~码力十足。
 
-
 ## Preview
 
 ![kugimiya](./preview/Kugimiya-preview.png)
@@ -34,7 +33,6 @@
 语音台词对照: [resource.csv](./resource.csv)
 
 关键词语音列表: [keywords-voices.yml](./keywords-voices.yml)
-
 
 ## Install
 
@@ -48,7 +46,6 @@
 
 ![import](./preview/import.png)
 
-
 ## Customize
 
 导入后可以在页面上打开音频文件夹然后编辑 `manifest.json` 来简单自定义**修改触发关键词和语音**，
@@ -58,7 +55,6 @@
 如果觉得触发太频繁可以手动删掉一些关键词，或者**把某些关键词改成错误拼写** (目前内置了一些常见 typo)，**立即享受在打错单词的时候被钉宫狠狠的骂一顿吧～**
 
 ![open-voice-directory](./preview/open-voice-directory.png)
-
 
 ## Dev & Contribute
 
@@ -89,6 +85,11 @@ npm run build
 
 ## Author
 
+原作者：
+
 **kugimiya-rainbow-fart** © [zthxxx](https://github.com/zthxxx), Released under the **[MIT](./LICENSE)** License.<br>
 
 > Blog [@zthxxx](https://blog.zthxxx.me) · GitHub [@zthxxx](https://github.com/zthxxx)
+
+本人仅添加部分关键词，主要提升在C/C++工作时的~~爽感~~乐趣
+开发中，预计会比较吵
