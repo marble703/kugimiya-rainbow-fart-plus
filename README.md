@@ -14,7 +14,7 @@
 
 ---
 
-这是一个 vscode 彩虹屁🌈插件 [vscode-rainbow-fart](https://github.com/SaekiRaku/vscode-rainbow-fart) 的语音扩展包，灵感来源 [#40](https://github.com/SaekiRaku/vscode-rainbow-fart/issues/40) (支持 `JS` `TS` `python` `golang`)
+这是一个 vscode 彩虹屁🌈插件 [vscode-rainbow-fart](https://github.com/SaekiRaku/vscode-rainbow-fart) 的语音扩展包，灵感来源 [#40](https://github.com/SaekiRaku/vscode-rainbow-fart/issues/40) (支持 `JS` `TS` `python` `golang` `c` `c++`)
 
 但这并不彩虹屁，因为钉宫没有夸你，**相反是在骂你**；  ~~你再骂？！(恳求)~~
 
